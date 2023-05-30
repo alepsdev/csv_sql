@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alepsdev</groupId>
-	<artifactId>performance</artifactId>
+	<artifactId>csv_sql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>performance</name>
-	<description>Performance</description>
+	<name>csv_sql</name>
+	<description>CSV SQL</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
