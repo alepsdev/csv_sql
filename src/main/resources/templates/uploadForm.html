@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload CSV</title>
+</head>
+<body>
+<h1>Upload CSV</h1>
+<form action="#" th:action="@{/upload}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".csv">
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
+<br>
+<div th:if="${message}" style="color: green">
+    <p th:text="${message}"></p>
+</div>
+<div th:if="${error}" style="color: red">
+    <p th:text="${error}"></p>
+</div>
+</body>
+</html>
